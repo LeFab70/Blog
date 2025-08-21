@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create article</title>
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Muli:300,400,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <a href="/" class="header-brand">Blog</a>
+        <nav>
+          <ul>
+            <li><a href="/" class="header-nav">Home</a></li>
+            <li>
+              <a href="./form/form.html" class="header-nav active"
+                >Create article</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <div class="content">
+        <form>
+          <h2 class="title-underline">Add article</h2>
+          <div class="form-group">
+            <label>author</label>
+            <input type="text" name="author" />
+          </div>
+          <div class="form-group">
+            <label>category</label>
+            <input type="text" name="category"  />
+          </div>
+          <div class="form-group">
+            <label>Article</label>
+            <textarea name="content"></textarea>
+          </div>
+          <ul id="errors" class="text-error">
+            <!-- validation errors will be displayed here -->
+          </ul>
+          <div class="form-btn-container">
+            <button class="btn btn-secondary">cancel</button>
+            <button class="btn btn-primary">Save</button>
+          </div>
+        </form>
+      </div>
+      <footer>copyright@ 2025 blog</footer>
+    </div>
+    <script src="./form.js" type="module"></script>
+  </body>
+</html>
