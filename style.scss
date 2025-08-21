@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+// body{
+//     font-family: Arial, sans-serif;
+//     background-color: #f2f2f2;
+//     &:hover{
+//         background-color: #c6d7c6;
+//     }
+
+//     min-height: 100vh;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     }
+
+.container {
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+}
